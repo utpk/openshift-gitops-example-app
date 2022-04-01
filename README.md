@@ -9,7 +9,7 @@ A -->|Application source code| B[openshift-gitops-example-app]
 A -->|Resources and configurations| C[openshift-gitops-example-repo]
 C --> D[app1]
 C --> DD[app2]
-D --- E[[Deploymentconfig<br>Buildconfig<br>Imagestream]]
+D --- E[[Deployment]]
 DD --- EE[[Deploymentconfig<br>Buildconfig<br>Imagestream<br>Configmap<br>Secret]]
 ```
 
